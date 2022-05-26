@@ -106,7 +106,7 @@ class build_cexe(Command):
 setup(
     name='dumb-init',
     description='Simple wrapper script which proxies signals to a child',
-    version=open('VERSION').read().strip(),
+    #version=open('VERSION').read().strip(),
     author='Yelp',
     url='https://github.com/Yelp/dumb-init/',
     platforms='linux',
